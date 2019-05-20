@@ -1,0 +1,1 @@
+Select-Object @{n = 'Test'; v = {'{0:N2}' -f ($_.Length)}} 
